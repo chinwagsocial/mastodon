@@ -13,14 +13,14 @@
       .column-0
         .brand
           = link_to root_url do
-            = image_tag asset_pack_path('logo_full.svg'), alt: 'Mastodon'
+            = image_tag asset_pack_path('chinwag-social-black.svg'), alt: 'Chinwag'
 
       - if Setting.timeline_preview
         .column-1
           .landing-page__forms
             .brand
               = link_to root_url do
-                = image_tag asset_pack_path('logo_full.svg'), alt: 'Mastodon'
+                = image_tag asset_pack_path('chinwag-social-black.svg'), alt: 'Chinwag'
 
             = render 'forms'
 
@@ -29,7 +29,7 @@
           .landing-page__forms
             .brand
               = link_to root_url do
-                = image_tag asset_pack_path('logo_full.svg'), alt: 'Mastodon'
+                = image_tag asset_pack_path('chinwag-social-black.svg'), alt: 'Chinwag'
 
             = render 'forms'
 
@@ -63,7 +63,7 @@
                   %span= t 'about.status_count_after'
               .row__mascot
                 .landing-page__mascot
-                  = image_tag asset_pack_path('elephant_ui_plane.svg')
+                  = image_tag asset_pack_path('cigarmanwoman.svg')
 
       - else
         .column-2.non-preview
@@ -95,7 +95,7 @@
                   %span= t 'about.status_count_after'
               .row__mascot
                 .landing-page__mascot
-                  = image_tag asset_pack_path('elephant_ui_plane.svg')
+                  = image_tag asset_pack_path('cigarmanwoman.svg')
 
       - if Setting.timeline_preview
         .column-3
