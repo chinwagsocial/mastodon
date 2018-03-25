@@ -1,4 +1,4 @@
-default: styles/chinwag.scss
+default: styles/chinwag_light.scss
 light: styles/mastodon_light.scss
 mastodon: styles/application.scss
-testing: styles/chinwag_light.scss
+oldchinwag: styles/chinwag.scss

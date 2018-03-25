@@ -738,7 +738,7 @@ en:
     default: Chinwag
     light: Mastodon Light
     mastodon: Mastodon Default
-    testing: Testing
+    oldchinwag: Chinwag Old
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
