@@ -211,3 +211,13 @@ button.icon-button.disabled i.fa-retweet {
 .simple_form .input-with-append .append {
   color: $ui-primary-color;
 }
+
+.landing-page__forms,
+.landing-page__information,
+.landing-page__call-to-action {
+  background: #f9fcf9;
+}
+
+.landing-page__logo img {
+  mix-blend-mode: darken;
+}
