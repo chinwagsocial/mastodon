@@ -781,8 +781,8 @@ en:
   themes:
     default: Chinwag
     mastodon: Mastodon Default
-    contrast: High contrast
     mastodon-light: Mastodon (light)
+    contrast: High Contrast
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
