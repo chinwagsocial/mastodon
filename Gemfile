@@ -17,7 +17,7 @@ gem 'aws-sdk-s3', '~> 1.9', require: false
 gem 'fog-core', '~> 1.45'
 gem 'fog-local', '~> 0.5', require: false
 gem 'fog-openstack', '~> 0.1', require: false
-gem 'paperclip', '~> 5.1'
+gem 'paperclip', '~> 6.0'
 gem 'paperclip-av-transcoder', '~> 0.6'
 gem 'streamio-ffmpeg', '~> 3.0'
 
