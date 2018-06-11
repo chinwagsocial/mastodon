@@ -149,6 +149,16 @@ button.icon-button.disabled i.fa-retweet {
     background-color: rgba($classic-secondary-color, .4);
     color: rgba($black, .4);
   }
+  &.button-alternative {
+    color: $white;
+    background: $ui-primary-color;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background-color: lighten($ui-primary-color, 4%);
+    }
+  }
 }
 
 .upload-progress__tracker {
@@ -221,3 +231,29 @@ button.icon-button.disabled i.fa-retweet {
 .landing-page__logo img {
   mix-blend-mode: darken;
 }
+
+.muted {
+  .status__content p,
+  .status__content a {
+    color: $darker-text-color;
+  }
+
+  .status__display-name strong {
+    color: $darker-text-color;
+  }
+
+  .status__avatar {
+    opacity: 0.5;
+  }
+
+  a.status__content__spoiler-link {
+    background: $ui-base-lighter-color;
+    color: $inverted-text-color;
+
+    &:hover {
+      background: lighten($ui-base-lighter-color, 7%);
+      text-decoration: none;
+    }
+  }
+}
+
