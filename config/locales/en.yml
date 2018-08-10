@@ -802,8 +802,8 @@ en:
     title: "%{instance} Terms of Service and Privacy Policy"
   themes:
     default: Chinwag
-    mastodon: Mastodon Default
-    mastodon-light: Mastodon (light)
+    mastodon: Mastodon Dark
+    chinwag_light: Chinwag (Old)
     contrast: High Contrast
   time:
     formats:
