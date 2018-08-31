@@ -865,7 +865,6 @@ en:
   themes:
     default: Chinwag
     mastodon: Mastodon Dark
-    chinwag_light: Chinwag (Old)
     contrast: High Contrast
   time:
     formats:
