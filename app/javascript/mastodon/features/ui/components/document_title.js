@@ -24,10 +24,11 @@ class DocumentTitle extends PureComponent {
 
   _sideEffects () {
     const { unread } = this.props;
+    const future_preference = false;
 
-    if (unread > 99) {
+    if (future_preference === true && unread > 99) {
       document.title = `(*) ${title}`;
-    } else if (unread > 0) {
+    } else if (future_preference ===true && unread > 0) {
       document.title = `(${unread}) ${title}`;
     } else {
       document.title = title;
