@@ -8,7 +8,7 @@ $classic-secondary-color: #e0e0d8;
 $classic-highlight-color: #99da5c;
 
 // Differences
-$success-green: #428556;
+$success-green: lighten(#3c754d, 8%);
 
 $base-overlay-background: $white !default;
 $valid-value-color: $success-green !default;
